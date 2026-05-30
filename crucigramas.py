@@ -7,7 +7,6 @@ def posiciones_ocupadas(palabra, inicio, orientacion):
         return [(r, c + k) for k in range(len(palabra))]
     return [(r + k, c) for k in range(len(palabra))]
 
-
 def letra_en_celda(palabra, inicio, orientacion, celda):
     r, c = inicio
     if orientacion == 'H':
